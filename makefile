@@ -1,8 +1,8 @@
 
-CHUGINS=ABSaturator AmbPan Bitcrusher KasFilter MagicSine FIR FoldbackSaturator \
+CHUGINS=ABSaturator AmbPan Bitcrusher Buffer Clip DelayC KasFilter MagicSine FIR FoldbackSaturator \
 	PanN PitchTrack GVerb Mesh2D Spectacle Elliptic Sigmund ExpDelay Overdrive \
 	Multicomb PowerADSR WinFuncEnv WPDiodeLadder WPKorg35 \
-	Binaural ExpEnv Perlin Random Wavetable
+	Binaural ExpEnv Perlin Random Wavetable Linseg
 
 CHUGS_NOT_ON_WIN32=FluidSynth
 CHUGINS_WIN32=$(filter-out $(CHUGS_NOT_ON_WIN32),$(CHUGINS))
