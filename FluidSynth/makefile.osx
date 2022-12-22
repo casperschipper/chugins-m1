@@ -1,5 +1,5 @@
 
-ARCHS?=arm64e
+ARCHS?=arm64
 ARCHOPTS=$(addprefix -arch ,$(ARCHS))
 
 FLUIDSYNTH_PREFIX=/opt/local

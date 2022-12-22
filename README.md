@@ -1,3 +1,18 @@
+# Important note to self (Casper)
+
+My own Chugins are compiling to M1 architecture.
+this also contains a lot of other chugins
+they do not compile.
+
+A bit of a weird quirk:
+Chugins will not load from /usr/local/lib/chuck
+Use only ~/Library/Application\ Support/Chuck/Chugins
+No problems the :-)
+
+
+
+
+
 Repository for Officially Supported ChuGins [![Build Status](https://travis-ci.org/ccrma/chugins.svg?branch=master)](https://travis-ci.org/ccrma/chugins)
 ==
 
